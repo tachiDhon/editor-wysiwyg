@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    	<meta charset="utf-8"/>
+    	<title>WYSIWYG</title>
+    	<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="entete">
+            <h1>LE PROJET QUI TUE TON WEEK-END</h1>
+        </div>
+
+        <div class="container">
+        <textarea name="my_wysiwyg" rows="8" cols="80"></textarea>
+    </div>
+    </body>
+	<script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(function(){
+            $('textarea').my_wysiwyg({
+                buttons: ['bold', 'italic', 'color', 'texte barré', 'taille police', 'lien', 'justif à gauche', 'justif à droite', 'justif center']
+            });
+        });
+    });
+</script>
+</html>

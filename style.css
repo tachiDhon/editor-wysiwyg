@@ -1,0 +1,109 @@
+body 
+{
+	background: url('https://ns328286.ip-37-187-113.eu/ew/wallpapers/800x480/02197_800x480.jpg');
+	font-family: Verdana, Calibri, sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.entete {
+	text-align:center;
+}
+
+a
+{
+	text-decoration: none;
+	color: #454545;
+}
+/*----------------- Le .entete -----------------*/
+.entete
+{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.entete h1
+{
+	width: 350px;
+	margin: 0 auto;
+	font-size: 2.5em;
+	padding-top: 20px;
+}
+.entete p
+{
+	margin-left: 100px;
+	font-size: 0.7em;
+	font-style: italic;
+	padding-bottom: 15px;
+}
+
+/*----------------- Le bloc principal ---------*/
+
+.main--compartment
+{
+	width: 90%;
+	margin-left: 5%;
+	background-color: #d9d9d9;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*----------------- Liste de boutons ----------*/
+.list--boutons
+{
+	width: 250px;
+	height: 350px;
+	border: solid 1px #000000;
+	margin: 2%;
+	margin-right: 3%;
+	padding: 5px;
+}
+section nav ul li
+{
+	list-style: none;
+	padding: 5px;
+}
+
+/*----------------- Zone de Texte -------------*/
+
+#text_wanted, #my_wysiwyg
+{
+	width: 950px;
+	height: 340px;
+	border: solid 1px #000000;
+	margin-left: 19%;
+	margin-top : 3%; 
+	padding: 5px;
+	background-color: white;
+}
+
+/*----------------- Obtenir le HTML -----------*/
+
+input, select
+{
+	border: none;
+	margin-left: 20px;
+	padding: 15px 32px; 
+	text-align: center;
+	text-decoration: none;
+}
+
+ #resultatButton
+{
+	width: 250px;
+	height: 50px;
+	margin-left : 46%;
+	border: none;
+	color: white;
+	margin-top: 25px;
+}
+
+#resultat
+{
+	width: 950px;
+	height: 100px;
+	border: solid 1px #000000;
+	margin: 2%;
+	padding: 5px;
+	margin-left : 19%;
+}
