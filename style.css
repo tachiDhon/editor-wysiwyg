@@ -66,12 +66,12 @@ section nav ul li
 
 /*----------------- Zone de Texte -------------*/
 
-#text_wanted, #my_wysiwyg
+#text_wanted, #zone_texte
 {
 	width: 950px;
 	height: 340px;
 	border: solid 1px #000000;
-	margin-left: 19%;
+	margin-left: 23%;
 	margin-top : 3%; 
 	padding: 5px;
 	background-color: white;
@@ -88,22 +88,26 @@ input, select
 	text-decoration: none;
 }
 
- #resultatButton
+#bold
+{
+	margin-left: 370px;
+}
+
+ #renduButton
 {
 	width: 250px;
 	height: 50px;
-	margin-left : 46%;
+	margin-left : 43%;
 	border: none;
-	color: white;
 	margin-top: 25px;
 }
 
-#resultat
+#rendu
 {
 	width: 950px;
 	height: 100px;
 	border: solid 1px #000000;
 	margin: 2%;
 	padding: 5px;
-	margin-left : 19%;
+	margin-left: 23%;
 }
