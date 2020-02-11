@@ -1,4 +1,4 @@
 # editor-wysiwyg
-jQuery
-Plugin jQuery
+jQuery,
+Plugin jQuery,
 HTML / Traitement de texte
